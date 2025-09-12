@@ -1,0 +1,37 @@
+# Compile of D_Latch.sv was successful.
+# Compile of D_Latch_TB.sv was successful.
+# Compile of MSDFF.sv was successful.
+# Compile of MSDFF_TB.sv was successful.
+# Compile of shift_register.sv was successful.
+# Compile of shift_register_tb.sv was successful.
+# Compile of LFSR.sv was successful.
+# Compile of LFSR_tb.sv was successful.
+# Compile of NFSR.sv was successful.
+# Compile of NFSR_TB.sv was successful.
+# Compile of Grain.sv was successful.
+# Compile of Grain_TB.sv was successful.
+# 12 compiles, 0 failed with no errors.
+vsim -gui work.tb_D_Latch
+# vsim -gui work.tb_D_Latch 
+# Start time: 12:48:30 on Dec 23,2024
+# Loading sv_std.std
+# Loading work.tb_D_Latch
+# Loading work.D_Latch
+add wave -position insertpoint  \
+sim:/tb_D_Latch/D \
+sim:/tb_D_Latch/rst \
+sim:/tb_D_Latch/en \
+sim:/tb_D_Latch/clk \
+sim:/tb_D_Latch/Q \
+sim:/tb_D_Latch/Qb
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: ASUS  Hostname: LAPTOP-NE9QAJVT  ProcessID: 17144
+#           Attempting to use alternate WLF file "./wlftr6sviv".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftr6sviv
+run -all
+# ** Note: $stop    : C:/Users/ASUS/Desktop/DLD_CA3/D_Latch_TB.sv(22)
+#    Time: 140 ns  Iteration: 0  Instance: /tb_D_Latch
+# Break in Module tb_D_Latch at C:/Users/ASUS/Desktop/DLD_CA3/D_Latch_TB.sv line 22
+# End time: 12:48:51 on Dec 23,2024, Elapsed time: 0:00:21
+# Errors: 0, Warnings: 4

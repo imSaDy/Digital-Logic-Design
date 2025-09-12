@@ -1,0 +1,32 @@
+`timescale 1ns/1ns
+module sevenSegmentDecoder (input w,x,y,z ,output[6:0] out);
+	wire xb,yb,zb;
+	wire xbzb;
+	wire xz;
+	wire xyb;
+	wire xybz;
+	wire xby;
+	wire xzb;
+	wire yzb;
+	wire yz;
+	wire ybzb;
+	not #(1) inv_x(xb ,x); 
+	not #(1) inv_y(yb ,y); 
+	not #(1) inv_z(zb ,z);
+	and #(2) and_xbzb(xbzb ,xb ,yb);
+	and #(2) and_xz(xz ,x ,z); 
+	and #(2) and_xyb(xyb ,x ,yb);
+	and #(2) and_xybz(xybz ,x ,yb ,z);
+	and #(2) and_xby(xby ,xb ,y);
+	and #(2) and_xzb(xzb ,x ,zb);
+	and #(2) and_yzb(yzb ,y ,zb);
+	and #(2) and_yz(yz ,y ,z); 
+	and #(2) and_ybzb(ybzb ,yb ,zb);
+	or #(3) out_a(out[0] ,xbzb ,y ,w ,xz);
+	or #(3) out_b(out[1] ,xb ,yz ,ybzb);
+	or #(3) out_c(out[2] ,yb ,z ,x); 
+	or #(3) out_d(out[3] ,w ,yzb ,xbzb ,xybz ,xby); 
+	or #(3) out_e(out[4] ,xbzb ,yzb);
+	or #(3) out_f(out[5] ,w ,ybzb ,xyb ,xzb); 
+	or #(3) out_g(out[6] ,w ,xyb ,yzb ,xby);
+endmodule

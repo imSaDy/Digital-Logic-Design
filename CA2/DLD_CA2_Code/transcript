@@ -1,0 +1,31 @@
+# Compile of CA_1_PART_B.sv was successful.
+# Compile of CA_1_PART_B_TB.sv was successful.
+# Compile of CA_1_PART_D.sv was successful.
+# Compile of CA1_PART_D_TB.sv was successful.
+# Compile of CA2.sv was successful.
+# Compile of CA2_TB.sv was successful.
+# 6 compiles, 0 failed with no errors.
+vsim -gui work.TopModule_TB
+# vsim -gui work.TopModule_TB 
+# Start time: 16:06:53 on Dec 05,2024
+# Loading sv_std.std
+# Loading work.TopModule_TB
+# Loading work.sevenSegmentDecoderFromOnehot
+# Loading work.Top_Module
+# Loading work.encoder_onehot_to_binary
+# Loading work.ALU
+# Loading work.CLA
+# Loading work.comparator
+# Loading work.decoder_binary_to_onehot
+# Loading work.sevenSegmentDecoderBehavioral
+add wave -position insertpoint  \
+sim:/TopModule_TB/UUT/inp1 \
+sim:/TopModule_TB/UUT/inp2 \
+sim:/TopModule_TB/UUT/opcode \
+sim:/TopModule_TB/UUT/overflow \
+sim:/TopModule_TB/UUT/out \
+sim:/TopModule_TB/UUT/binary \
+sim:/TopModule_TB/UUT/test_out
+run -all
+# End time: 16:07:18 on Dec 05,2024, Elapsed time: 0:00:25
+# Errors: 0, Warnings: 2

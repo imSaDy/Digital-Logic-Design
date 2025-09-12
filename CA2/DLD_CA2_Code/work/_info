@@ -1,0 +1,294 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA/20.1
+vALU
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1733402201
+!i10b 1
+!s100 >7j3me`B1=HPgjCdJi=F73
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IZ[nALiBzS8=W60KF`PBh`2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/ASUS/Desktop/DLD_CA2/New folder (2)
+Z5 w1733400677
+Z6 8C:/Users/ASUS/Desktop/DLD_CA2/New folder (2)/CA2.sv
+Z7 FC:/Users/ASUS/Desktop/DLD_CA2/New folder (2)/CA2.sv
+!i122 151
+L0 154 65
+Z8 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z9 !s108 1733402201.000000
+Z10 !s107 C:/Users/ASUS/Desktop/DLD_CA2/New folder (2)/CA2.sv|
+Z11 !s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/DLD_CA2/New folder (2)/CA2.sv|
+!i113 1
+Z12 o-work work -sv
+Z13 tCvgOpt 0
+n@a@l@u
+vCLA
+R0
+R1
+!i10b 1
+!s100 =4H3djfXb@N8F=gO@BonX1
+R2
+I^J9BDb[:C]7Qa6:I3f<CD3
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 151
+L0 78 42
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@c@l@a
+vcomparator
+R0
+R1
+!i10b 1
+!s100 hLo<U2KILMXUlEM7So5LK2
+R2
+IkOo_he4K1ON=C8c>?lO:R2
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 151
+L0 121 32
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vdecoder_binary_to_onehot
+R0
+R1
+!i10b 1
+!s100 5[n?h<:Y;1N?9m?Iz:D9;0
+R2
+I:D]@P:QX6PnAQ>95g6Nek0
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 151
+L0 52 24
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vencoder_onehot_to_binary
+R0
+R1
+!i10b 1
+!s100 da`NI2nFAIG<Ue=b>>VV@3
+R2
+IGGI2n8D`<h<jU<B72oj?i1
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 151
+L0 26 24
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+vsevenSegmentDecoder
+R0
+Z14 !s110 1733402200
+!i10b 1
+!s100 32XVZL@5KinJ=HIA9=0JA1
+R2
+I0HdZ<3[@9fZQKcN5NXUf;0
+R3
+S1
+R4
+w1730192495
+8C:/Users/ASUS/Desktop/DLD_CA1_810102588/CA_1_PART_B.sv
+FC:/Users/ASUS/Desktop/DLD_CA1_810102588/CA_1_PART_B.sv
+!i122 147
+L0 2 31
+R8
+r1
+!s85 0
+31
+Z15 !s108 1733402200.000000
+!s107 C:/Users/ASUS/Desktop/DLD_CA1_810102588/CA_1_PART_B.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/DLD_CA1_810102588/CA_1_PART_B.sv|
+!i113 1
+R12
+R13
+nseven@segment@decoder
+vsevenSegmentDecoder_TB
+R0
+R1
+!i10b 1
+!s100 5RDi0=?Rd]LJLZ1Icaf3:0
+R2
+I1PjFi[WDGccEd9DicL4z>0
+R3
+S1
+R4
+w1730215534
+8C:/Users/ASUS/Desktop/DLD_CA1_810102588/CA1_PART_D_TB.sv
+FC:/Users/ASUS/Desktop/DLD_CA1_810102588/CA1_PART_D_TB.sv
+!i122 150
+L0 2 24
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ASUS/Desktop/DLD_CA1_810102588/CA1_PART_D_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/DLD_CA1_810102588/CA1_PART_D_TB.sv|
+!i113 1
+R12
+R13
+nseven@segment@decoder_@t@b
+vsevenSegmentDecoderBehavioral
+R0
+R14
+!i10b 1
+!s100 ^lodf_K9lSQQ_5QPKLdWh3
+R2
+I1KnRei8Nhi4UFXJmmGZS_1
+R3
+S1
+R4
+w1730228948
+8C:/Users/ASUS/Desktop/DLD_CA1_810102588/CA_1_PART_D.sv
+FC:/Users/ASUS/Desktop/DLD_CA1_810102588/CA_1_PART_D.sv
+!i122 149
+L0 2 9
+R8
+r1
+!s85 0
+31
+R15
+!s107 C:/Users/ASUS/Desktop/DLD_CA1_810102588/CA_1_PART_D.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/DLD_CA1_810102588/CA_1_PART_D.sv|
+!i113 1
+R12
+R13
+nseven@segment@decoder@behavioral
+vsevenSegmentDecoderFromOnehot
+R0
+R1
+!i10b 1
+!s100 ``IElHVPXK]@>ViTMf?9a3
+R2
+IC;75jF6XdNNY^GebIHJiV0
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 151
+L0 1 11
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+nseven@segment@decoder@from@onehot
+vTop_Module
+R0
+R1
+!i10b 1
+!s100 3aaN^LebTjZej:7_6<j7O3
+R2
+I9<O2>`MNGV7RS2=AlM3Z03
+R3
+S1
+R4
+R5
+R6
+R7
+!i122 151
+L0 13 12
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 1
+R12
+R13
+n@top_@module
+vTopModule_TB
+R0
+R1
+!i10b 1
+!s100 >YnS_RliMFXZCEQbfel0A2
+R2
+IjGF29:W8QGE0GmnYLMU5e0
+R3
+S1
+R4
+w1733400351
+8C:/Users/ASUS/Desktop/DLD_CA2/New folder (2)/CA2_TB.sv
+FC:/Users/ASUS/Desktop/DLD_CA2/New folder (2)/CA2_TB.sv
+!i122 152
+L0 2 68
+R8
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/ASUS/Desktop/DLD_CA2/New folder (2)/CA2_TB.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/DLD_CA2/New folder (2)/CA2_TB.sv|
+!i113 1
+R12
+R13
+n@top@module_@t@b

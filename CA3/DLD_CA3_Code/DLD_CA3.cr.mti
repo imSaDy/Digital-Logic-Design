@@ -1,0 +1,89 @@
+C:/Users/ASUS/Desktop/DLD_CA3/D_Latch.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/DLD_CA3/D_Latch.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module D_Latch
+
+Top level modules:
+	D_Latch
+
+} {} {}} C:/Users/ASUS/Desktop/DLD_CA3/Grain.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/DLD_CA3/Grain.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Grain
+
+Top level modules:
+	Grain
+
+} {} {}} C:/Users/ASUS/Desktop/DLD_CA3/D_Latch_TB.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/DLD_CA3/D_Latch_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_D_Latch
+
+Top level modules:
+	tb_D_Latch
+
+} {} {}} C:/Users/ASUS/Desktop/DLD_CA3/MSDFF_TB.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/DLD_CA3/MSDFF_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_MSDFF
+
+Top level modules:
+	tb_MSDFF
+
+} {} {}} C:/Users/ASUS/Desktop/DLD_CA3/Grain_TB.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/DLD_CA3/Grain_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_Grain
+
+Top level modules:
+	tb_Grain
+
+} {} {}} C:/Users/ASUS/Desktop/DLD_CA3/shift_register_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/DLD_CA3/shift_register_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_Shift_register80
+-- Compiling module tb_Shift_register24
+
+Top level modules:
+	tb_Shift_register80
+	tb_Shift_register24
+
+} {} {}} C:/Users/ASUS/Desktop/DLD_CA3/LFSR.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/DLD_CA3/LFSR.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LFSR
+
+Top level modules:
+	LFSR
+
+} {} {}} C:/Users/ASUS/Desktop/DLD_CA3/MSDFF.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/DLD_CA3/MSDFF.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module MSDFF
+
+Top level modules:
+	MSDFF
+
+} {} {}} C:/Users/ASUS/Desktop/DLD_CA3/NFSR.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/DLD_CA3/NFSR.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module NFSR
+
+Top level modules:
+	NFSR
+
+} {} {}} C:/Users/ASUS/Desktop/DLD_CA3/shift_register.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/DLD_CA3/shift_register.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Shift_register24
+-- Compiling module Shift_register80
+
+Top level modules:
+	Shift_register24
+	Shift_register80
+
+} {} {}} C:/Users/ASUS/Desktop/DLD_CA3/LFSR_tb.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/DLD_CA3/LFSR_tb.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_LFSR
+
+Top level modules:
+	tb_LFSR
+
+} {} {}} C:/Users/ASUS/Desktop/DLD_CA3/NFSR_TB.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/DLD_CA3/NFSR_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_NFSR
+
+Top level modules:
+	tb_NFSR
+
+} {} {}}

@@ -1,0 +1,29 @@
+C:/Users/ASUS/Desktop/CA_1_PART_B_TB.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/CA_1_PART_B_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sevenSegmentDecoder_TB
+
+Top level modules:
+	sevenSegmentDecoder_TB
+
+} {} {}} C:/Users/ASUS/Desktop/CA_1_PART_D.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/CA_1_PART_D.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sevenSegmentDecoderBehavioral
+
+Top level modules:
+	sevenSegmentDecoderBehavioral
+
+} {} {}} C:/Users/ASUS/Desktop/CA_1_PART_D_TB.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/CA_1_PART_D_TB.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sevenSegmentDecoderBehavioral_TB
+
+Top level modules:
+	sevenSegmentDecoderBehavioral_TB
+
+} {} {}} C:/Users/ASUS/Desktop/CA_1_PART_B.sv {1 {vlog -work work -sv -stats=none C:/Users/ASUS/Desktop/CA_1_PART_B.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sevenSegmentDecoder
+
+Top level modules:
+	sevenSegmentDecoder
+
+} {} {}}

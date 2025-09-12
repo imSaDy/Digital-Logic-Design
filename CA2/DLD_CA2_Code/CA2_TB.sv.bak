@@ -1,0 +1,19 @@
+`timescale 1ns/1ns
+module sevenSegmentDecoder_TB();
+	logic [15:0] x ,y; 
+	logic [2:0] opcode; 
+	wire [15:0] test_out; 
+	wire overflow; 
+	wire [3:0] binary;
+	wire [15:0] onehott;
+	decoder_binary_to_onehot decoder3(binary, onehott);
+	//Top_Module UUT(x, y, opcode, test_out, overflow);
+	initial begin 
+        	#10; 
+		binary = 4'b0000; 
+		x = 16'b0000000000000010; 
+        	y = 16'b0000000000000100;
+        	opcode = 3'b001; 
+        	#10 $stop; 
+	end 
+endmodule 

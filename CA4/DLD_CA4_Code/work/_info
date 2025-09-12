@@ -1,0 +1,440 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/ASUS/Desktop/DLD_CA4
+vcomparator
+Z0 DXx6 sv_std 3 std 0 22 VYECXdT12H8WgbUP_5Y6:3
+Z1 !s110 1736487980
+!i10b 1
+!s100 Z11k6X^<NIgzP6X4BDH;T2
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IPb;cab?FoB3jHhKh907n^0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+S1
+Z4 dC:/Users/ASUS/Desktop/New folder (6)
+w1736424335
+8C:/Users/ASUS/Desktop/New folder (6)/Comparator.sv
+FC:/Users/ASUS/Desktop/New folder (6)/Comparator.sv
+!i122 36
+Z5 L0 1 7
+Z6 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z7 !s108 1736487980.000000
+!s107 C:/Users/ASUS/Desktop/New folder (6)/Comparator.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/Comparator.sv|
+!i113 1
+Z8 o-work work -sv
+Z9 tCvgOpt 0
+vcontroller
+R0
+R1
+!i10b 1
+!s100 hdO1Z^:5G8;OH9f;P;i9M0
+R2
+IzDjC9>aKYN]SO31`COBX`0
+R3
+S1
+R4
+w1736365883
+8C:/Users/ASUS/Desktop/New folder (6)/Controller2x2.sv
+FC:/Users/ASUS/Desktop/New folder (6)/Controller2x2.sv
+!i122 37
+L0 1 44
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ASUS/Desktop/New folder (6)/Controller2x2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/Controller2x2.sv|
+!i113 1
+R8
+R9
+vcontroller3x3
+R0
+R1
+!i10b 1
+!s100 c3l^67bhF:OAS<?WHOhha0
+R2
+I2576IL<K@6mFb8[?XI3Nh1
+R3
+S1
+R4
+w1736427065
+8C:/Users/ASUS/Desktop/New folder (6)/Controller3x3.sv
+FC:/Users/ASUS/Desktop/New folder (6)/Controller3x3.sv
+!i122 38
+L0 1 38
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ASUS/Desktop/New folder (6)/Controller3x3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/Controller3x3.sv|
+!i113 1
+R8
+R9
+vcounter
+R0
+R1
+!i10b 1
+!s100 g:U>SG@JV6UVMj`H8Idki2
+R2
+IjI;f6imY9[j;`0cb3WkbN1
+R3
+S1
+R4
+w1736181345
+8C:/Users/ASUS/Desktop/New folder (6)/Counter.sv
+FC:/Users/ASUS/Desktop/New folder (6)/Counter.sv
+!i122 39
+L0 1 17
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ASUS/Desktop/New folder (6)/Counter.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/Counter.sv|
+!i113 1
+R8
+R9
+vdecoder
+R0
+R1
+!i10b 1
+!s100 ;S1O3<5];@Z]1Hk=Z3aWb3
+R2
+ID_I=BVf2J=1h;2`joO>ef0
+R3
+S1
+R4
+w1736424491
+8C:/Users/ASUS/Desktop/New folder (6)/Decoder2to3.sv
+FC:/Users/ASUS/Desktop/New folder (6)/Decoder2to3.sv
+!i122 42
+L0 1 12
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ASUS/Desktop/New folder (6)/Decoder2to3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/Decoder2to3.sv|
+!i113 1
+R8
+R9
+vDet2x2_DataPath
+R0
+R1
+!i10b 1
+!s100 FRB[X?R1C=4i01a2_OL4h2
+R2
+IoEfNbkjJ7IjC9JGVD9COh3
+R3
+S1
+R4
+w1736344867
+8C:/Users/ASUS/Desktop/New folder (6)/DataPath2x2.sv
+FC:/Users/ASUS/Desktop/New folder (6)/DataPath2x2.sv
+!i122 40
+L0 1 29
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ASUS/Desktop/New folder (6)/DataPath2x2.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/DataPath2x2.sv|
+!i113 1
+R8
+R9
+n@det2x2_@data@path
+vDet2x2_TestBench
+R0
+Z10 !s110 1736487981
+!i10b 1
+!s100 SI`_R@[[j@F2?ZecbiTlf2
+R2
+IcnA:[ImzHOc?EM2@G`U2Z3
+R3
+S1
+R4
+w1736487895
+8C:/Users/ASUS/Desktop/New folder (6)/TopModule_tb.sv
+FC:/Users/ASUS/Desktop/New folder (6)/TopModule_tb.sv
+!i122 49
+L0 3 46
+R6
+r1
+!s85 0
+31
+Z11 !s108 1736487981.000000
+!s107 C:/Users/ASUS/Desktop/New folder (6)/TopModule_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/TopModule_tb.sv|
+!i113 1
+R8
+R9
+n@det2x2_@test@bench
+vDet3x3_DataPath
+R0
+R1
+!i10b 1
+!s100 SH1ff^SFVOR[IYG][1HLm1
+R2
+IG2:FIG98Fo0OdTLbbXbM81
+R3
+S1
+R4
+w1736486928
+8C:/Users/ASUS/Desktop/New folder (6)/DataPath3x3.sv
+FC:/Users/ASUS/Desktop/New folder (6)/DataPath3x3.sv
+!i122 41
+L0 1 78
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ASUS/Desktop/New folder (6)/DataPath3x3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/DataPath3x3.sv|
+!i113 1
+R8
+R9
+n@det3x3_@data@path
+vDet3x3_TestBench
+R0
+R10
+!i10b 1
+!s100 10N;1A9UQkzRTJeFX]SUo2
+R2
+ImE_K@@lEf7A<UEU]GV70>2
+R3
+S1
+R4
+w1736487107
+8C:/Users/ASUS/Desktop/New folder (6)/TopModule3x3_tb.sv
+FC:/Users/ASUS/Desktop/New folder (6)/TopModule3x3_tb.sv
+!i122 51
+L0 3 65
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ASUS/Desktop/New folder (6)/TopModule3x3_tb.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/TopModule3x3_tb.sv|
+!i113 1
+R8
+R9
+n@det3x3_@test@bench
+vregister
+R0
+R1
+!i10b 1
+!s100 Gh?6k:Ok0Z=?E_;GddeJ53
+R2
+I;o@1cXh4RZb8;Ia]8IP2M0
+R3
+S1
+R4
+w1736404262
+8C:/Users/ASUS/Desktop/New folder (6)/Register.sv
+FC:/Users/ASUS/Desktop/New folder (6)/Register.sv
+!i122 43
+L0 1 14
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ASUS/Desktop/New folder (6)/Register.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/Register.sv|
+!i113 1
+R8
+R9
+vROM
+R10
+!i10b 1
+!s100 o^`M1O;J8W=en1f]>=N0W0
+R2
+I2Scb3C?]Sb0GKR<_27h@C1
+R3
+R4
+w1735899309
+8C:/Users/ASUS/Desktop/New folder (6)/ROM.v
+FC:/Users/ASUS/Desktop/New folder (6)/ROM.v
+!i122 44
+L0 2 23
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ASUS/Desktop/New folder (6)/ROM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/ROM.v|
+!i113 1
+Z12 o-work work
+R9
+n@r@o@m
+vROM_TB
+R10
+!i10b 1
+!s100 fWD2G[L2ZAC1J:Y;mcfLS0
+R2
+I;I@?Vc8PPN[6MBc:0?F^l2
+R3
+R4
+w1735899275
+8C:/Users/ASUS/Desktop/New folder (6)/ROM_tb.v
+FC:/Users/ASUS/Desktop/New folder (6)/ROM_tb.v
+!i122 45
+L0 2 20
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ASUS/Desktop/New folder (6)/ROM_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/ROM_tb.v|
+!i113 1
+R12
+R9
+n@r@o@m_@t@b
+vsigned_adder
+R0
+R1
+!i10b 1
+!s100 Jm_:h4nRP6fF_A6T5DzlM2
+R2
+Ib@DB2b=@5[_V[idQDY_hC2
+R3
+S1
+R4
+w1736406583
+8C:/Users/ASUS/Desktop/New folder (6)/Adder.sv
+FC:/Users/ASUS/Desktop/New folder (6)/Adder.sv
+!i122 35
+R5
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/ASUS/Desktop/New folder (6)/Adder.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/Adder.sv|
+!i113 1
+R8
+R9
+vsigned_multiplier
+R0
+R10
+!i10b 1
+!s100 6f6XkJoa77>QbD`^OkTzn0
+R2
+IY3fY;OUMEehVlkYm6TO>A0
+R3
+S1
+R4
+w1736452839
+8C:/Users/ASUS/Desktop/New folder (6)/SignedMultiplier.sv
+FC:/Users/ASUS/Desktop/New folder (6)/SignedMultiplier.sv
+!i122 46
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ASUS/Desktop/New folder (6)/SignedMultiplier.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/SignedMultiplier.sv|
+!i113 1
+R8
+R9
+vsigned_subtractor
+R0
+R10
+!i10b 1
+!s100 G;YLi3fG8N_2?5L_O[`OO2
+R2
+IeiIRnAf0Lc;1^OIa4@2P:2
+R3
+S1
+R4
+w1736451681
+8C:/Users/ASUS/Desktop/New folder (6)/Subtractor.sv
+FC:/Users/ASUS/Desktop/New folder (6)/Subtractor.sv
+!i122 47
+R5
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ASUS/Desktop/New folder (6)/Subtractor.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/Subtractor.sv|
+!i113 1
+R8
+R9
+vTopModule2x2
+R0
+R10
+!i10b 1
+!s100 ;adS7U_VVAT]gzPRb3kfE0
+R2
+Idm6FW3li3@]WMVV`OO[^j1
+R3
+S1
+R4
+w1736329120
+8C:/Users/ASUS/Desktop/New folder (6)/TopModule.sv
+FC:/Users/ASUS/Desktop/New folder (6)/TopModule.sv
+!i122 48
+L0 1 13
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ASUS/Desktop/New folder (6)/TopModule.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/TopModule.sv|
+!i113 1
+R8
+R9
+n@top@module2x2
+vTopModule3x3
+R0
+R10
+!i10b 1
+!s100 g_jFZCbEC85OcQ_9K_nPQ0
+R2
+IeSEc?Wm;3jEUobUCO3JkY1
+R3
+S1
+R4
+w1736484915
+8C:/Users/ASUS/Desktop/New folder (6)/TopModule3x3.sv
+FC:/Users/ASUS/Desktop/New folder (6)/TopModule3x3.sv
+!i122 50
+L0 1 11
+R6
+r1
+!s85 0
+31
+R11
+!s107 C:/Users/ASUS/Desktop/New folder (6)/TopModule3x3.sv|
+!s90 -reportprogress|300|-work|work|-sv|-stats=none|C:/Users/ASUS/Desktop/New folder (6)/TopModule3x3.sv|
+!i113 1
+R8
+R9
+n@top@module3x3
